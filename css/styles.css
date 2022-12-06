@@ -132,8 +132,10 @@ img {
 
 .column2 {
   padding: 15px;
+  width: 70%;
   align-content: center;
   margin-left: 10px;
+  box-shadow: 2px 4px 5px 3px rgb(227, 227, 234);
 }
 
 @media screen and (max-width: 400px) {
