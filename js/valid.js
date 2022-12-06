@@ -2,7 +2,7 @@ function validateInput(){
     var postCode = document.getElementById("Postal").value.trim();
     var error = document.getElementById('error');
     let valid = true;
-    let postCodeRep =/[a-zA-Z]\d[a-zA-Z]\s?\d[a-zA-Z]\d/gm;
+    let postCodeRep =/^[a-zA-Z]\d[a-zA-Z]\s?\d[a-zA-Z]\d$/gm;
     if(!postCodeRep.test(postCode)){
         error.innerHTML += "Please enter the right Post Code!"
         valid = false;
